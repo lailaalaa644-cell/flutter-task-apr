@@ -1,4 +1,7 @@
-import 'package:fib_task/search_page.dart';
+
+
+import 'package:fib_task/nav.dart';
+import 'package:fib_task/page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +13,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: SearchPage(),),
+    return MaterialApp(
+      home: 
+       passPage(),
     );
   }
 }
